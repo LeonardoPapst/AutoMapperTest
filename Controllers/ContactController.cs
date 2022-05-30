@@ -1,6 +1,8 @@
 using AutoMapper;
 using AutoMapperTest.models;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace AutoMapperTest.Controllers
 {
@@ -15,12 +17,13 @@ namespace AutoMapperTest.Controllers
             this.mapper = mapper;
         }
 
-        [HttpGet]
-        public IActionResult Test()
+        [HttpPost]
+        public IActionResult Test(JObject objProt)
         {
-            ContactProtheus test = new ContactProtheus();
+            ContactProtheus test = JsonConvert.DeserializeObject<ContactProtheus>(objProt.ToString());
             ContactPloomes ploomes = mapper.Map<ContactPloomes>(test);
-            return Ok();
+            ploomes.LegalName = "Leonardo Guerra Papst";
+            return Ok(ploomes);
         }
 
     }

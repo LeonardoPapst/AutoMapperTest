@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6fTKFS7gjXzM4YvmNCt0EGbOkCvzcRvFs7f1mXCzFoLxZLQShfeIoYlQi/d5HX5y1knSUaC3wmPd2iE7I+MIAQ==",
+  "dgSpecHash": "wFYmoHp1dNWoYZ+kBs5CwH+FvVGHbwk7J+lIvfp0tfRoEa4MIywdUw9tDdgtgQ28sQOyTDT1UHihpf+T0ZOEJw==",
   "success": true,
-  "projectFilePath": "d:\\Leo\\Documents\\Projects\\C#\\APIAutoMapper\\AutoMapperTest\\AutoMapperTest.csproj",
+  "projectFilePath": "D:\\Leo\\Documents\\Projects\\C#\\APIAutoMapper\\AutoMapperTest\\AutoMapperTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leo\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Leo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

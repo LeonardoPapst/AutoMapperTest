@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Leo\\Documents\\Projects\\C#\\APIAutoMapper\\AutoMapperTest\\AutoMapperTest.csproj": {}
+    "D:\\Leo\\Documents\\Projects\\C#\\APIAutoMapper\\AutoMapperTest\\AutoMapperTest.csproj": {}
   },
   "projects": {
-    "d:\\Leo\\Documents\\Projects\\C#\\APIAutoMapper\\AutoMapperTest\\AutoMapperTest.csproj": {
+    "D:\\Leo\\Documents\\Projects\\C#\\APIAutoMapper\\AutoMapperTest\\AutoMapperTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Leo\\Documents\\Projects\\C#\\APIAutoMapper\\AutoMapperTest\\AutoMapperTest.csproj",
+        "projectUniqueName": "D:\\Leo\\Documents\\Projects\\C#\\APIAutoMapper\\AutoMapperTest\\AutoMapperTest.csproj",
         "projectName": "AutoMapperTest",
-        "projectPath": "d:\\Leo\\Documents\\Projects\\C#\\APIAutoMapper\\AutoMapperTest\\AutoMapperTest.csproj",
+        "projectPath": "D:\\Leo\\Documents\\Projects\\C#\\APIAutoMapper\\AutoMapperTest\\AutoMapperTest.csproj",
         "packagesPath": "C:\\Users\\Leo\\.nuget\\packages\\",
-        "outputPath": "d:\\Leo\\Documents\\Projects\\C#\\APIAutoMapper\\AutoMapperTest\\obj\\",
+        "outputPath": "D:\\Leo\\Documents\\Projects\\C#\\APIAutoMapper\\AutoMapperTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Leo\\AppData\\Roaming\\NuGet\\NuGet.Config"
