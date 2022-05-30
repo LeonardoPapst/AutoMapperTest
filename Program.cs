@@ -2,6 +2,7 @@ using AutoMapperTest.AutoMapper;
 
 var builder = WebApplication.CreateBuilder(args);
 
+IConfiguration myConfig = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
 // Add services to the container.
 
 

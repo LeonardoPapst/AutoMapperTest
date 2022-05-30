@@ -9,6 +9,7 @@ namespace AutoMapperTest
 {
     public class PlooLib
     {
+        public static string UK { get; set; }
         public static void CreateTask(bool success, int actionUserId, int contactId)
         {
             string urlTask = "Tasks?";
@@ -41,7 +42,7 @@ namespace AutoMapperTest
         {
             RequestHandler.client = new HttpClient();
             RequestHandler.client.DefaultRequestHeaders.Clear();
-            //RequestHandler.client.DefaultRequestHeaders.Add("User-Key", Startup.StaticConfiguration.GetValue<string>("FixedInfos:UK"));
+            RequestHandler.client.DefaultRequestHeaders.Add("User-Key", UK);
             RequestHandler.client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
         }
         // public static void InstantiateGenericConnection()

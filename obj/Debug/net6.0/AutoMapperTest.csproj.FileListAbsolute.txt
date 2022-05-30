@@ -80,3 +80,4 @@ D:\Projetos\Pessoal\AutoMapperTest\AutoMapperTest\obj\Debug\net6.0\AutoMapperTes
 D:\Projetos\Pessoal\AutoMapperTest\AutoMapperTest\obj\Debug\net6.0\ref\AutoMapperTest.dll
 D:\Projetos\Pessoal\AutoMapperTest\AutoMapperTest\bin\Debug\net6.0\System.Net.Http.Formatting.dll
 D:\Projetos\Pessoal\AutoMapperTest\AutoMapperTest\bin\Debug\net6.0\WebApiContrib.Formatting.JavaScriptSerializer.dll
+D:\Projetos\Pessoal\AutoMapperTest\AutoMapperTest\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll

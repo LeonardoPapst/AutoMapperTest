@@ -11,16 +11,20 @@ namespace AutoMapperTest.Controllers
     public class ContactController : Controller
     {
         private readonly IMapper mapper;
+        private readonly IConfiguration myConfig;
 
-        public ContactController(IMapper mapper)
+        public ContactController(IMapper mapper, IConfiguration myConfig)
         {
             this.mapper = mapper;
+            this.myConfig = myConfig;
+            PlooLib.UK = myConfig.GetValue<string>("Secrets:UK");
         }
 
         [HttpPost]
         public IActionResult Test(JObject objPloo)
         {
             ContactPloomes test = JsonConvert.DeserializeObject<ContactPloomes>(objPloo.ToString());
+            PlooLib.InstantiateConnection();
             test.ConvertJsonOtherProp();
             ContactProtheus protheus = mapper.Map<ContactProtheus>(test);
 

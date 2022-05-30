@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XTetrRvTHRPO91gmBQSfnw90+Qr3AcN6ZOBAis1Bhc4RtUXT1+9HDDNDNmuD4Uj4oOW2QM9LNlrf/nwmaTcnZQ==",
+  "dgSpecHash": "sdw+FG1f1KBQu0FZ4+fAQpZMkC6sZ06wdOfvtWoLk/jdGiQwjT8pF4vWrbD9d2BdfOaDUZ5NQFB7XaGokXSrHw==",
   "success": true,
   "projectFilePath": "D:\\Projetos\\Pessoal\\AutoMapperTest\\AutoMapperTest\\AutoMapperTest.csproj",
   "expectedPackageFiles": [
@@ -58,7 +58,8 @@
     "C:\\Users\\leopa\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\leopa\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\2.2.0\\microsoft.extensions.caching.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\leopa\\.nuget\\packages\\microsoft.extensions.caching.memory\\2.2.0\\microsoft.extensions.caching.memory.2.2.0.nupkg.sha512",
-    "C:\\Users\\leopa\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.2.0\\microsoft.extensions.configuration.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\leopa\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
+    "C:\\Users\\leopa\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\leopa\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\2.2.0\\microsoft.extensions.dependencyinjection.2.2.0.nupkg.sha512",
     "C:\\Users\\leopa\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\leopa\\.nuget\\packages\\microsoft.extensions.dependencymodel\\2.1.0\\microsoft.extensions.dependencymodel.2.1.0.nupkg.sha512",
