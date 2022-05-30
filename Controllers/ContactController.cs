@@ -18,12 +18,13 @@ namespace AutoMapperTest.Controllers
         }
 
         [HttpPost]
-        public IActionResult Test(JObject objProt)
+        public IActionResult Test(JObject objPloo)
         {
-            ContactProtheus test = JsonConvert.DeserializeObject<ContactProtheus>(objProt.ToString());
-            ContactPloomes ploomes = mapper.Map<ContactPloomes>(test);
-            ploomes.LegalName = "Leonardo Guerra Papst";
-            return Ok(ploomes);
+            ContactPloomes test = JsonConvert.DeserializeObject<ContactPloomes>(objPloo.ToString());
+            ContactProtheus protheus = mapper.Map<ContactProtheus>(test);
+
+            string json = JsonConvert.SerializeObject(protheus);
+            return Ok(json);
         }
 
     }

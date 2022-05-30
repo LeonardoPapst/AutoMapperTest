@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Leo\\Documents\\Projects\\C#\\APIAutoMapper\\AutoMapperTest\\AutoMapperTest.csproj": {}
+    "D:\\Projetos\\Pessoal\\AutoMapperTest\\AutoMapperTest\\AutoMapperTest.csproj": {}
   },
   "projects": {
-    "D:\\Leo\\Documents\\Projects\\C#\\APIAutoMapper\\AutoMapperTest\\AutoMapperTest.csproj": {
+    "D:\\Projetos\\Pessoal\\AutoMapperTest\\AutoMapperTest\\AutoMapperTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Leo\\Documents\\Projects\\C#\\APIAutoMapper\\AutoMapperTest\\AutoMapperTest.csproj",
+        "projectUniqueName": "D:\\Projetos\\Pessoal\\AutoMapperTest\\AutoMapperTest\\AutoMapperTest.csproj",
         "projectName": "AutoMapperTest",
-        "projectPath": "D:\\Leo\\Documents\\Projects\\C#\\APIAutoMapper\\AutoMapperTest\\AutoMapperTest.csproj",
-        "packagesPath": "C:\\Users\\Leo\\.nuget\\packages\\",
-        "outputPath": "D:\\Leo\\Documents\\Projects\\C#\\APIAutoMapper\\AutoMapperTest\\obj\\",
+        "projectPath": "D:\\Projetos\\Pessoal\\AutoMapperTest\\AutoMapperTest\\AutoMapperTest.csproj",
+        "packagesPath": "C:\\Users\\leopa\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\Pessoal\\AutoMapperTest\\AutoMapperTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Leo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\leopa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,6 +63,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "WebApiContrib.Formatting.JavaScriptSerializer": {
+              "target": "Package",
+              "version": "[0.9.4, )"
             }
           },
           "imports": [
@@ -81,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
