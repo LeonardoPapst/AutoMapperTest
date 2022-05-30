@@ -21,9 +21,11 @@ namespace AutoMapperTest.Controllers
         public IActionResult Test(JObject objPloo)
         {
             ContactPloomes test = JsonConvert.DeserializeObject<ContactPloomes>(objPloo.ToString());
+            test.ConvertJsonOtherProp();
             ContactProtheus protheus = mapper.Map<ContactProtheus>(test);
 
             string json = JsonConvert.SerializeObject(protheus);
+
             return Ok(json);
         }
 
