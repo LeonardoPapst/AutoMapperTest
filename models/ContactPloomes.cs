@@ -1,6 +1,7 @@
 using Newtonsoft.Json;
-using System.Text.Json;
 using System.Text.Json.Serialization;
+using JsonIgnoreAttribute = Newtonsoft.Json.JsonIgnoreAttribute;
+
 namespace AutoMapperTest.models
 {
     [JsonObject(ItemNullValueHandling = NullValueHandling.Ignore)]
@@ -15,15 +16,25 @@ namespace AutoMapperTest.models
         public string Email { get; set; }
         public string StreetAddress { get; set; }
         public string StreetAddress2 { get; set; }
+
+        [JsonIgnore]
         public string Tipo { get; set; }
+
+        [JsonIgnore]
         public int IdTipo { get; set; }
+
+        [JsonIgnore]
         public string Codigo { get; set; }
+
+        [JsonIgnore]
         public string Loja { get; set; }
+
         public List<ContactPloomesPhones> Phones { get; set; }
         public List<ContactPloomesOtherProp> OtherProperties { get; set; }
 
         public void ConvertJsonOtherProp()
         {
+            PlooLib.InstantiateConnection();
             try
             {
                 Codigo = (OtherProperties.Find(x => x.FieldKey == "contact_1B8EC404-830F-4E49-AD0D-A2665FDC69D4").StringValue);
@@ -46,7 +57,6 @@ namespace AutoMapperTest.models
             }
             catch (Exception)
             { IdTipo = 0; Tipo = ""; }
-
         }
 
     }

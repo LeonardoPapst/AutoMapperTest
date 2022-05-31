@@ -13,5 +13,6 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0"/>
     <PackageReference Include="WebApiContrib.Formatting.JavaScriptSerializer" Version="0.9.4"/>
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1"/>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.8"/>
   </ItemGroup>
 </Project>

@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\Pessoal\\AutoMapperTest\\AutoMapperTest\\AutoMapperTest.csproj": {}
+    "D:\\Leo\\Documents\\Projects\\C#\\APIAutoMapper\\AutoMapperTest\\AutoMapperTest.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\Pessoal\\AutoMapperTest\\AutoMapperTest\\AutoMapperTest.csproj": {
+    "D:\\Leo\\Documents\\Projects\\C#\\APIAutoMapper\\AutoMapperTest\\AutoMapperTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\Pessoal\\AutoMapperTest\\AutoMapperTest\\AutoMapperTest.csproj",
+        "projectUniqueName": "D:\\Leo\\Documents\\Projects\\C#\\APIAutoMapper\\AutoMapperTest\\AutoMapperTest.csproj",
         "projectName": "AutoMapperTest",
-        "projectPath": "D:\\Projetos\\Pessoal\\AutoMapperTest\\AutoMapperTest\\AutoMapperTest.csproj",
-        "packagesPath": "C:\\Users\\leopa\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\Pessoal\\AutoMapperTest\\AutoMapperTest\\obj\\",
+        "projectPath": "D:\\Leo\\Documents\\Projects\\C#\\APIAutoMapper\\AutoMapperTest\\AutoMapperTest.csproj",
+        "packagesPath": "C:\\Users\\Leo\\.nuget\\packages\\",
+        "outputPath": "D:\\Leo\\Documents\\Projects\\C#\\APIAutoMapper\\AutoMapperTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\leopa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Leo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -47,6 +45,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.0.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.8, )"
             },
             "Microsoft.AspNetCore.Mvc": {
               "target": "Package",
@@ -91,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

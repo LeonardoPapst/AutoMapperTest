@@ -21,14 +21,26 @@ namespace AutoMapperTest.Controllers
         }
 
         [HttpPost]
-        public IActionResult Test(JObject objPloo)
+        [Route("PloomesToProtheus")]
+        public IActionResult PloomesToProtheus(JObject objPloo)
         {
             ContactPloomes test = JsonConvert.DeserializeObject<ContactPloomes>(objPloo.ToString());
-            PlooLib.InstantiateConnection();
             test.ConvertJsonOtherProp();
             ContactProtheus protheus = mapper.Map<ContactProtheus>(test);
 
             string json = JsonConvert.SerializeObject(protheus);
+
+            return Ok(json);
+        }
+
+        [HttpPost]
+        [Route("ProtheusToPloomes")]
+        public IActionResult ProtheusToPloomes(JObject objProt)
+        {
+            ContactProtheus test = JsonConvert.DeserializeObject<ContactProtheus>(objProt.ToString());
+            test.ConvertJsonOtherProp();
+            ContactPloomes ploo = mapper.Map<ContactPloomes>(test);
+            string json = JsonConvert.SerializeObject(ploo);
 
             return Ok(json);
         }

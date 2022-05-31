@@ -10,6 +10,7 @@
         "dependencies": {
           "AutoMapper": "11.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "Microsoft.AspNet.WebApi.Client": "5.2.8",
           "Microsoft.AspNetCore.Mvc": "2.2.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.5",
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -44,15 +45,15 @@
           }
         }
       },
-      "Microsoft.AspNet.WebApi.Client/4.0.20710": {
+      "Microsoft.AspNet.WebApi.Client/5.2.8": {
         "dependencies": {
-          "Microsoft.Net.Http": "2.0.20710",
-          "Newtonsoft.Json": "13.0.1"
+          "Newtonsoft.Json": "13.0.1",
+          "Newtonsoft.Json.Bson": "1.0.2"
         },
         "runtime": {
-          "lib/net40/System.Net.Http.Formatting.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.20710.0"
+          "lib/netstandard2.0/System.Net.Http.Formatting.dll": {
+            "assemblyVersion": "5.2.8.0",
+            "fileVersion": "5.2.34876.0"
           }
         }
       },
@@ -557,7 +558,6 @@
           "System.Text.Encodings.Web": "4.5.0"
         }
       },
-      "Microsoft.Net.Http/2.0.20710": {},
       "Microsoft.Net.Http.Headers/2.2.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "6.0.0",
@@ -1321,7 +1321,7 @@
       },
       "WebApiContrib.Formatting.JavaScriptSerializer/0.9.4": {
         "dependencies": {
-          "Microsoft.AspNet.WebApi.Client": "4.0.20710"
+          "Microsoft.AspNet.WebApi.Client": "5.2.8"
         },
         "runtime": {
           "lib/net40/WebApiContrib.Formatting.JavaScriptSerializer.dll": {
@@ -1352,12 +1352,12 @@
       "path": "automapper.extensions.microsoft.dependencyinjection/11.0.0",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512"
     },
-    "Microsoft.AspNet.WebApi.Client/4.0.20710": {
+    "Microsoft.AspNet.WebApi.Client/5.2.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-BwFtW0cGr8tg02XalvF8MmznOpYrhquD2eXWI0oF3LLSqLMFoFkb8Pmke/7SnqkiNc+YfsaUqdXEKbjhv1Ctrw==",
-      "path": "microsoft.aspnet.webapi.client/4.0.20710",
-      "hashPath": "microsoft.aspnet.webapi.client.4.0.20710.nupkg.sha512"
+      "sha512": "sha512-dkGLm30CxLieMlUO+oQpJw77rDs0IIx/w3lIHsp+8X94HXCsUfLYuFmlZPsQDItC0O2l1ZlWeKLkZX7ZiNRekw==",
+      "path": "microsoft.aspnet.webapi.client/5.2.8",
+      "hashPath": "microsoft.aspnet.webapi.client.5.2.8.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Antiforgery/2.2.0": {
       "type": "package",
@@ -1827,13 +1827,6 @@
       "sha512": "sha512-V8XcqYcpcdBAxUhLeyYcuKmxu4CtNQA9IphTnARpQGhkop4A93v2XgM3AtaVVJo3H2cDWxWM6aeO8HxkifREqw==",
       "path": "microsoft.extensions.webencoders/2.2.0",
       "hashPath": "microsoft.extensions.webencoders.2.2.0.nupkg.sha512"
-    },
-    "Microsoft.Net.Http/2.0.20710": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-OsB/5QO9tYJRLYIgBOhRl4Tssh3pw7+UAO9tMGMBg63f98GfjsniVIwLWRC0vcRr/F6HLP/NvRlHyGBhtD7Bmw==",
-      "path": "microsoft.net.http/2.0.20710",
-      "hashPath": "microsoft.net.http.2.0.20710.nupkg.sha512"
     },
     "Microsoft.Net.Http.Headers/2.2.0": {
       "type": "package",

@@ -12,5 +12,34 @@ namespace AutoMapperTest.models
         public string DateTimeValue { get; set; }
         public bool BoolValue { get; set; }
 
+        public ContactPloomesOtherProp(string fieldKey, string stringValue)
+        {
+            FieldKey = fieldKey;
+            StringValue = stringValue;
+            BigStringValue = stringValue;
+        }
+        public ContactPloomesOtherProp(string fieldKey, int integerValue)
+        {
+            FieldKey = fieldKey;
+            IntegerValue = integerValue;
+        }
+        public ContactPloomesOtherProp(string fieldKey, float decimalValue)
+        {
+            FieldKey = fieldKey;
+            DecimalValue = decimalValue;
+        }
+        public ContactPloomesOtherProp(string fieldKey, bool boolValue)
+        {
+            FieldKey = fieldKey;
+            BoolValue = boolValue;
+        }
+        public ContactPloomesOtherProp(string fieldKey, DateTime dateTimeValue)
+        {
+            FieldKey = fieldKey;
+            DateTimeValue = dateTimeValue.ToString();
+        }
+        public ContactPloomesOtherProp()
+        { }
+
     }
 }
