@@ -41,8 +41,12 @@ namespace AutoMapperTest.Controllers
             test.ConvertJsonOtherProp();
             ContactPloomes ploo = mapper.Map<ContactPloomes>(test);
             string json = JsonConvert.SerializeObject(ploo);
+            JObject objJson = JObject.Parse(json);
+            PlooLib.InstantiateConnection();
+            string urlRequest = "Contacts";
+            //RequestHandler.MakeRequest(urlRequest, Method.POST, json);
 
-            return Ok(json);
+            return Ok(RequestHandler.MakeRequest(urlRequest, Method.POST, objJson));
         }
 
     }

@@ -41,6 +41,7 @@ namespace AutoMapperTest.models
             }
             catch (Exception)
             { Codigo = ""; }
+
             try
             {
                 Loja = (OtherProperties.Find(x => x.FieldKey == "contact_CA8D65D1-6D75-411B-863F-D9E6F5ECDE0B").StringValue);
